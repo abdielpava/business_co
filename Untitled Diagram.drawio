@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-24T21:49:57.020Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="Y32n7ekjwNYwPimXBGFw" version="15.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-24T21:53:55.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="uZ8lW83_IXnIYeICYGHB" version="15.3.2" type="github">
   <diagram id="DT-_muEqHMBpyArq2VsZ" name="Page-1">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
           <mxGeometry y="108" width="160" height="42" as="geometry" />
         </mxCell>
         <mxCell id="LlK_bNaNvu1yjgypKK31-17" value="Clase IngredienteEsp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="240" width="210" height="124" as="geometry" />
+          <mxGeometry x="100" y="240" width="210" height="150" as="geometry" />
         </mxCell>
         <mxCell id="LlK_bNaNvu1yjgypKK31-18" value="+ ingredientes: ManyToManyField&#xa;+nombre: ChartField&#xa;+cantidad: Float&#xa;+stock: Integer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LlK_bNaNvu1yjgypKK31-17">
           <mxGeometry y="26" width="210" height="64" as="geometry" />
@@ -31,8 +31,8 @@
         <mxCell id="LlK_bNaNvu1yjgypKK31-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="LlK_bNaNvu1yjgypKK31-17">
           <mxGeometry y="90" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="LlK_bNaNvu1yjgypKK31-20" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LlK_bNaNvu1yjgypKK31-17">
-          <mxGeometry y="98" width="210" height="26" as="geometry" />
+        <mxCell id="LlK_bNaNvu1yjgypKK31-20" value="+ __str__()&#xa;+Costo_ing_esp()&#xa;+CostoUnitario()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LlK_bNaNvu1yjgypKK31-17">
+          <mxGeometry y="98" width="210" height="52" as="geometry" />
         </mxCell>
         <mxCell id="LlK_bNaNvu1yjgypKK31-21" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="510" y="240" width="160" height="86" as="geometry" />
