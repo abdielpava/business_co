@@ -5,7 +5,7 @@ from django.db import models
 class Ingrediente(models.Model):
     nombre = models.CharField(max_length=200)
     precio = models.FloatField() 
-    unidades = models.IntegerField()
+    #unidades = models.IntegerField()
     cantidad = models.IntegerField()
 
     def __str__(self):
