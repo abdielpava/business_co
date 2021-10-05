@@ -23,15 +23,19 @@ class IngredientesEsp(models.Model):
     precio = models.IntegerField()
     descripcion = models.TextField()
     foto = models.ImageField(blank = True, null=True)
+    #tiempoElaboracion = models.IntegerField()
 
     def __str__(self):
         return self.nombreIngEsp
 
     
     def costoIgredienteEsp(self):
+        #valor de todos los ingredientes utilizados
+        #mas el valor del tiempo que se emplea para hacerlo 
         pass
 
     def costoUnitario(self):
+        #el valor del producto ya preparado 
         pass
 
 class Producto(models.Model):
